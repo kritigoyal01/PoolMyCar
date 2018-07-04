@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_view_profile"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.anew.poolmycar.part1.ViewProfile">
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="90dp"
+        android:id="@+id/NametextView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/cast_abc_scrubber_control_off_mtrl_alpha"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="45dp"
+        android:layout_marginTop="17dp"
+        android:id="@+id/imageView" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:ems="10"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="21dp"
+        android:layout_marginTop="28dp"
+        android:id="@+id/NameeditText" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:ems="10"
+        android:layout_alignTop="@+id/GendertextView"
+        android:layout_alignStart="@+id/NameeditText"
+        android:id="@+id/GendereditText" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/InstituteeditText"
+        android:layout_alignEnd="@+id/InstitutetextView"
+        android:layout_marginTop="17dp"
+        android:id="@+id/PasswordtextView" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:ems="10"
+        android:layout_alignTop="@+id/PasswordtextView"
+        android:layout_alignStart="@+id/InstituteeditText"
+        android:id="@+id/PasswordeditText" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/PasswordeditText"
+        android:layout_alignStart="@+id/PasswordtextView"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="19dp"
+        android:id="@+id/AgetextView" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:ems="10"
+        android:layout_alignTop="@+id/AgetextView"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/AgeeditText"
+        android:layout_alignStart="@+id/PasswordeditText" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:id="@+id/GendertextView"
+        android:layout_below="@+id/NameeditText"
+        android:layout_alignStart="@+id/NametextView" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/PhoneNumbertextView"
+        android:layout_below="@+id/GendereditText"
+        android:layout_alignStart="@+id/GendertextView"
+        android:layout_marginTop="29dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:ems="10"
+        android:id="@+id/PhoneNumbereditText"
+        android:layout_alignBaseline="@+id/PhoneNumbertextView"
+        android:layout_alignBottom="@+id/PhoneNumbertextView"
+        android:layout_alignStart="@+id/GendereditText" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:ems="10"
+        android:id="@+id/InstituteeditText"
+        android:layout_below="@+id/PhoneNumbereditText"
+        android:layout_alignStart="@+id/PhoneNumbereditText" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/InstitutetextView"
+        android:layout_alignBaseline="@+id/InstituteeditText"
+        android:layout_alignBottom="@+id/InstituteeditText"
+        android:layout_alignStart="@+id/PhoneNumbertextView" />
+</RelativeLayout>
